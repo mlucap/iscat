@@ -9,7 +9,7 @@ class Say(commands.Cog):
     @commands.command(pass_context=True)
     async def say(self, ctx, *args):
         """says what you said"""
-        msg = ''.join(args)
+        msg = ' '.join(args)
         await ctx.message.delete()
         return await ctx.send(msg)
 
