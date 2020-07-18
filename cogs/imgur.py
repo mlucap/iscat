@@ -12,7 +12,7 @@ class Imgur(commands.Cog):
 
     @commands.command()
     async def imgur(self, ctx):
-        await ctx.send('a')
+        await ctx.send('o')
 
 def setup(client):
     client.add_cog(Imgur(client))
