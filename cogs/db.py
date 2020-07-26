@@ -14,7 +14,7 @@ class DB(commands.Cog):
         '''
         Registers user into database
         '''
-        mongo_url = "mongodb+srv://root:root1234@cluster0.fr1yq.azure.mongodb.net/test"
+        mongo_url = os.getenv("CONNECT_URL")
         cluster = MongoClient(mongo_url)
         db = cluster["UserData"]
         collection = db["UserData"]
