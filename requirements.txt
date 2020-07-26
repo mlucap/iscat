@@ -1,3 +1,5 @@
 discord
 disputils
 requests
+pymongo
+dnspython
