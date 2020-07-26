@@ -11,7 +11,7 @@ class Cat(commands.Cog):
     @commands.command()
     async def iscat(self, ctx):
         """iscat?"""
-        if 'imgur' in ctx.message.content:
+        if 'https://imgur.com' in ctx.message.content:
             try:
                 await ctx.send(f'There is a `nan%` chance there is a cat in that image')
             except:
