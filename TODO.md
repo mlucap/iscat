@@ -1,7 +1,4 @@
 ### TODO
-
-
-
 - [ ]  Add banking system 
     - [ ] Withdraw, deposit, and trade commands
     - [ ] Ways to make money and spend - Could possibly be from sending messages and buying items from a shop?
