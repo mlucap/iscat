@@ -7,6 +7,7 @@
 - [ ] Comprehensive error messages that will log themselves.
 - [ ] Add more utils - Currently have a way to confirm an action, and a way to make a selection from many options.
     - [ ] Possibly tweak the current package I'm using to accomplish the current utils.
+- [ ] Info command - Will show many details about the bot, guild, and user requesting the command.
 
 ### Done ✓
 - [x] Implement cogs and a way to load, unload, and reload them

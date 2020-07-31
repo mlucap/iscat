@@ -20,10 +20,8 @@ class Cogs(Cog):
     @commands.command()
     async def reload(self, ctx, extension):
         self.client.unload_extension(f'cogs.{extension}')
-        time.sleep(1)
         self.client.load_extension(f'cogs.{extension}')
         await ctx.send(f'`cogs.{extension} reloaded`')
-
-
+    
 def setup(client):
     client.add_cog(Cogs(client))
