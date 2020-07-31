@@ -27,5 +27,4 @@ First, clone the repo to a desired location
 Next, be sure you have all the requirements
 - `$ pip3 install requirements.txt`
 
-After that, either create an evironment varible on your computer/ on your hosting service named `BOT_TOKEN` with your bot's token and run the `main.py` file.clan
-.
+After that, either create an evironment varible on your computer/ on your hosting service named `BOT_TOKEN` with your bot's token and run the `main.py` file
